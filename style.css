@@ -1,0 +1,159 @@
+
+.login-page{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 600px;
+    width: 1200px;
+    background-color: white;
+    display: flex;
+    
+}
+
+.login-text{
+    background-color: white;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.login-image{
+    background: linear-gradient(
+        white,white
+    );
+    flex-basis: 50%;
+}
+.loginhero{
+    height: auto;
+    width: 100%;
+}
+
+.login-heading h1{
+    color: black;
+    font-size: 35px;
+    font-weight: 700;
+    color: #000000;
+    font-family: cursive;
+
+}
+.login-heading h1 span{
+    color: blue;
+}
+
+.login-subtittle h2{
+    margin-top: 5px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-weight: 300;
+    font-family: cursive;
+}
+
+.email-label{
+    margin-top: 10px;
+    padding: 15px;
+}
+.email-label input{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 150px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.login-password{
+    margin-top: 2px;
+    padding: 10px;
+    
+}
+
+.login-password input{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 150px;
+    border: none;
+    border-bottom: 1px solid black;
+    
+}
+
+.forgot-password{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    height: 20px;
+    width: 100%;
+    
+}
+.forgot-left{
+    height: 2px;
+    width: 100%;
+    flex-basis: 80;
+}
+.forgot-right{
+    flex-basis: 60%;
+}
+
+.forgot-right a{
+    text-decoration: none;
+    color: #0647D4;
+    font-family: cursive;
+
+}
+.forgot-right a:hover{
+    text-decoration: underline;
+    transition: .5s;
+}
+.sign{
+    margin-top: 20px;
+
+}
+
+input[type="submit"]{
+    align-items: center;
+    width: 150%;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    
+    background-color: #7395df;
+    border-radius: 40px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+input[type="submit"]:hover{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    transition: .5s;
+}
+
+
+.already-account{
+    margin-top: 35px;
+
+}
+
+.already-account p{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+
+}
+.already-account span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #16181c;
+    cursor: pointer;
+
+}
+
+.already-account span:hover{
+    text-decoration: underline;
+    transition: .5s;
+}
